@@ -1,0 +1,132 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 143, 143);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgWrapper img {
+    width: auto;
+    height: 50vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.imgWrapper {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(143, 143, 143);
+    height: auto;
+    padding: 1%;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 114, 116);
+    width: auto;
+    user-select: none;
+}
+
+.arrowLeft, .arrowRight {
+    background-color: rgb(44, 44, 44);
+    color: rgb(241, 241, 241);
+    padding: 5%;
+    height: auto;
+}
+
+span.material-icons {
+    font-size: 250%;
+    transition: 0.3s ease-in-out;
+}
+
+.material-icons:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.headline {
+    background-color: rgb(100, 100, 100);
+    color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 1%;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+span.bold {
+    font-size: 125%;
+    font-weight: 900;
+}
+
+img:nth-child(1) {
+    display: none;
+}
+
+img:nth-child(2) {
+    display: none;
+}
+
+img:nth-child(3) {
+    display: block;
+    height: 45vh;
+    width: auto;
+    border: 5px solid rgb(44, 44, 44);
+    filter: blur(2.5px);
+}
+
+img:nth-child(4) {
+    display: block;
+    height: 50vh;
+    width: auto;
+    border: 5px solid rgb(44, 44, 44);
+    filter: blur(2.5px);
+}
+
+img:nth-child(5) {
+    display: block;
+    height: 55vh;
+    width: auto;
+    border: 5px solid rgb(44, 44, 44);
+}
+
+img:nth-child(6) {
+    display: block;
+    height: 50vh;
+    width: auto;
+    border: 5px solid rgb(44, 44, 44);
+    filter: blur(2.5px);
+}
+
+img:nth-child(7) {
+    display: block;
+    height: 45vh;
+    width: auto;
+    border: 5px solid rgb(44, 44, 44);
+    filter: blur(2.5px);
+}
+
+img:nth-child(8) {
+    display: none;
+}
+
+img:nth-child(9) {
+    display: none;
+}
